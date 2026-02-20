@@ -1,8 +1,7 @@
-***
-
+---
 name: debug-openclaw
 description: Debug OpenClaw session issues, gateway problems, and runtime errors. Use when troubleshooting why sessions aren't responding, gateway won't start, skills fail to load, browser automation breaks, channels disconnect, or model/auth configuration is incorrect. Provides architecture context and guides systematic investigation through config files, session logs, and source code.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Debug OpenClaw Session
 
@@ -57,7 +56,7 @@ Read [references/architecture.md](references/architecture.md) for full details. 
 * `src/agents/session-transcript-repair.ts` — How transcript corruption is handled
 * `src/agents/session-write-lock.ts` — Session concurrency control
 
-***
+---
 
 ### Model & Auth Issues
 
@@ -88,7 +87,7 @@ Read [references/architecture.md](references/architecture.md) for full details. 
 * `src/agents/models-config.providers.ts` — Provider endpoint/URL configuration
 * `src/agents/cli-credentials.ts` — Credential storage and retrieval
 
-***
+---
 
 ### Channel Issues
 
@@ -115,7 +114,7 @@ Read [references/architecture.md](references/architecture.md) for full details. 
 * `src/gateway/channel-health-monitor.ts` — Health check logic
 * `src/telegram/`, `src/discord/`, `src/slack/` — Channel-specific code
 
-***
+---
 
 ### Skill Loading Issues
 
@@ -146,7 +145,7 @@ Read [references/architecture.md](references/architecture.md) for full details. 
 * `src/agents/skills/config.ts` — Skill config resolution
 * `src/agents/system-prompt.ts` → `buildSkillsSection()` — How skills are injected into the system prompt
 
-***
+---
 
 ### Gateway Issues
 
@@ -171,7 +170,7 @@ Read [references/architecture.md](references/architecture.md) for full details. 
 * `src/config/paths.ts` — How paths (config, state dir) are resolved
 * `src/infra/ports.ts` — Port availability checking
 
-***
+---
 
 ### Browser / Playwright Issues
 
@@ -190,7 +189,7 @@ Read [references/architecture.md](references/architecture.md) for full details. 
 * `src/browser/` — All browser automation code
 * `src/gateway/server-browser.ts` — Gateway's browser session management
 
-***
+---
 
 ### Config System
 
