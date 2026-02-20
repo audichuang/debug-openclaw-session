@@ -26,6 +26,12 @@ Read [references/architecture.md](references/architecture.md) for full details. 
 * **Pi-Embedded Runner** — The core engine that sends messages to AI providers and handles responses
 * **Skills** — Modular extensions loaded from SKILL.md files and injected into the system prompt
 
+## Additional References
+
+* **Config file formats** — Read [references/config-formats.md](references/config-formats.md) when you need to understand or modify `openclaw.json`, `models.json`, `sessions.json`, or session JSONL transcripts. Includes session key format patterns.
+* **Common operational tasks** — Read [references/common-tasks.md](references/common-tasks.md) for step-by-step guides: finding sessions by group name, tracing skill invocations, adding custom model providers, verifying model config, diagnosing channel issues, understanding agent bindings.
+* **Debug checklist** — Read [references/debug-checklist.md](references/debug-checklist.md) for symptom-based diagnosis (gateway won't start, session not responding, skill not loading, etc.).
+
 ## Where to Look by Problem Type
 
 ### Session Issues
